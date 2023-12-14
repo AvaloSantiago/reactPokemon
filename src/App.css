@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #555;
+  padding: 10px;
+  width: 240px;
+  text-align: center;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold; /* Agrega negritas a los títulos */
+  color: #ffffff; /* Cambia el color de los títulos */
+}
+
+.card p {
+  font-size: 16px;
+  margin: 5px 0; /* Ajusta los márgenes de los párrafos */
+}
+
+/* Estilo de los botones */
+.btnLike,
+.btnElim {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+
+.imgCard {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card:not(:last-child) {
+  margin-right: 20px;
+}
+
+.btnLike span {
+  font-weight: bold;
+}
